@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".WordChar7">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textChar1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textCharTrue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textCharTrue2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textChar1" />
+
+        <TextView
+            android:id="@+id/textCharTrue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textCharTrue3"
+            app:layout_constraintStart_toEndOf="@+id/textCharTrue1"
+            app:layout_constraintTop_toBottomOf="@+id/textChar2" />
+
+        <TextView
+            android:id="@+id/textCharTrue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textCharTrue4"
+            app:layout_constraintStart_toEndOf="@+id/textCharTrue2"
+            app:layout_constraintTop_toBottomOf="@+id/textChar3" />
+
+        <TextView
+            android:id="@+id/textCharTrue4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textCharTrue5"
+            app:layout_constraintStart_toEndOf="@+id/textCharTrue3"
+            app:layout_constraintTop_toBottomOf="@+id/textChar4" />
+
+        <TextView
+            android:id="@+id/textCharTrue5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textCharTrue6"
+            app:layout_constraintStart_toEndOf="@+id/textCharTrue4"
+            app:layout_constraintTop_toBottomOf="@+id/textChar5" />
+
+        <TextView
+            android:id="@+id/textCharTrue6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textCharTrue7"
+            app:layout_constraintStart_toEndOf="@+id/textCharTrue5"
+            app:layout_constraintTop_toBottomOf="@+id/textChar6" />
+
+        <TextView
+            android:id="@+id/textCharTrue7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textCharTrue6"
+            app:layout_constraintTop_toBottomOf="@+id/textChar7" />
+
+        <TextView
+            android:id="@+id/textChar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textCharTrue1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/textChar2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textChar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textCharTrue2"
+            app:layout_constraintStart_toStartOf="@id/textChar1"
+            app:layout_constraintEnd_toEndOf="@id/textChar3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textChar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textCharTrue3"
+            app:layout_constraintStart_toStartOf="@id/textChar2"
+            app:layout_constraintEnd_toEndOf="@id/textChar4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textChar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textCharTrue4"
+            app:layout_constraintStart_toStartOf="@id/textChar3"
+            app:layout_constraintEnd_toEndOf="@id/textChar5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textChar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textCharTrue5"
+            app:layout_constraintStart_toStartOf="@id/textChar4"
+            app:layout_constraintEnd_toEndOf="@id/textChar6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textChar6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textCharTrue6"
+            app:layout_constraintStart_toStartOf="@id/textChar5"
+            app:layout_constraintEnd_toEndOf="@id/textChar7"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textChar7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            app:layout_constraintBottom_toTopOf="@+id/textCharTrue7"
+            app:layout_constraintStart_toStartOf="@id/textChar6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
