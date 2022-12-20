@@ -7,8 +7,22 @@
     <string name="title_activity_settings">Налаштування</string>
     <string name="word_header">Слова</string>
     <string name="timer_header">Час</string>
-    <string name="word_title">Кількість букв в слові</string>
-    <string name="timer_title">Час складання слів</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="timer">00:00</string>
+
+    <string name="word_title">Кількість букв в слові:</string>
+    <string-array name="words">
+        <item>4 літери</item>
+        <item>5 літер</item>
+        <item>6 літер</item>
+        <item>7 літер</item>
+        <item>8 літер</item>
+        <item>9 літер</item>
+    </string-array>
+
+    <string name="timer_title">Час складання слів:</string>
+    <string-array name="timers">
+        <item>1 хвилина</item>
+        <item>2 хвилини</item>
+        <item>5 хвилин</item>
+    </string-array>
 </resources>
