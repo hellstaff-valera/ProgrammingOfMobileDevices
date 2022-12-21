@@ -1,0 +1,80 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/timer_header">
+
+        <ListPreference
+            app:defaultValue="60000"
+            app:entries="@array/timer_entries"
+            app:entryValues="@array/timer_values"
+            app:key="timer"
+            app:title="@string/timer_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/word_header">
+
+        <ListPreference
+            app:defaultValue="4"
+            app:entries="@array/word_entries"
+            app:entryValues="@array/word_values"
+            app:key="word"
+            app:title="@string/word_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/word_answer">
+
+        <ListPreference
+            app:defaultValue="Абаб"
+            app:entries="@array/word_4_char"
+            app:entryValues="@array/word_4_char"
+            app:key="word_4_char"
+            app:title="@string/word_4_char"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Абажур"
+            app:entries="@array/word_5_char"
+            app:entryValues="@array/word_5_char"
+            app:key="word_5_char"
+            app:title="@string/word_5_char"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Акцент"
+            app:entries="@array/word_6_char"
+            app:entryValues="@array/word_6_char"
+            app:key="word_6_char"
+            app:title="@string/word_6_char"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Аптечка"
+            app:entries="@array/word_7_char"
+            app:entryValues="@array/word_7_char"
+            app:key="word_7_char"
+            app:title="@string/word_7_char"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Академія"
+            app:entries="@array/word_8_char"
+            app:entryValues="@array/word_8_char"
+            app:key="word_8_char"
+            app:title="@string/word_8_char"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="Агрохімія"
+            app:entries="@array/word_9_char"
+            app:entryValues="@array/word_9_char"
+            app:key="word_9_char"
+            app:title="@string/word_9_char"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
