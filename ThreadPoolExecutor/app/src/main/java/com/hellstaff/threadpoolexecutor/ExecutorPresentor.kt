@@ -3,10 +3,6 @@ package com.hellstaff.threadpoolexecutor
 import android.app.Activity
 import java.util.concurrent.Executor
 import java.util.concurrent.Executors
-
-/**
- * Created by Siddhant on 22/03/18.
- */
 public class ExecutorPresentor(activity:Activity):Contract.Presenter
 {
     var activity=activity as ExecutorActivity
